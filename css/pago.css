@@ -1,0 +1,47 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.Padre{
+	margin: 20px auto;
+	min-width: 300px;
+	width:420px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 10px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.9);
+}
+
+#elementos{
+	flex-basis: 100%;
+}
+
+.tituloResumen{
+	flex-basis: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.tituloResumen h1{
+	color: red;
+	border-bottom:1px solid red;
+}
+
+.precioshijo{
+	flex-basis: 100%;
+	text-align: right;
+	padding: 10px;
+	margin: 10px;
+}
+#paypal-button-container{
+	flex-basis: 100%;
+}
+#precioFinal{
+	color: red;
+}
+#igv{
+	color: red;
+}
+#gran_total{
+	color: red;
+}

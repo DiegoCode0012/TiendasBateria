@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.contenedorConocenos{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.ItemDescripcion{
+	flex: 1;
+	color: black;
+}
+
+
+.ItemImagen{
+display: flex;
+flex: 1;
+min-width: 300px;
+max-width: 400px;
+justify-content: center;
+}
+.ItemImagen div{
+	padding: 10px;
+}
+.contenedorImagen{
+}
+.contenedorImagen div{
+	background: black;
+	border-radius: 10%;
+	padding: 10px;
+	text-align: center;
+
+}
+.contenedorImagen div img{
+	width: 90%;
+	margin: auto;
+	border-radius: 50%;
+}

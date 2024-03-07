@@ -1,0 +1,61 @@
+.contenedorPadreContactanos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenedorContacto{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 40px;
+}
+.contenedorContacto div{
+	text-align: center;
+	margin: 10px;
+}
+h2{
+	border-bottom:1px solid red;
+	color: red;
+	text-align: center;
+}
+.contenedorContacto div h2{
+		color: red;
+		border: none;
+}
+.contenedorContacto div p{
+	color: black;
+}
+.contenedorContacto div div img{
+	width: 100%;
+}
+.formularioSimple{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;	
+	max-width: 500px;
+	padding: 15px;
+}
+.formularioSimple div{
+flex-basis: 100%;
+margin: 10px;
+}
+.formularioSimple .inputText{
+padding: 7px;
+border:none;
+border-bottom: 3px solid #1c7;
+background: transparent;
+}
+.formularioSimple .inpuText:focus{
+background: #333;
+outline: none;
+border-bottom: 3px solid #5ddd;
+}
+.formularioSimple textarea{
+min-height: 150px;
+min-width: 250px;
+} 
+textarea{
+border:red;
+}

@@ -1,0 +1,52 @@
+.formFlex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+		margin: 20px;
+
+}
+.form{
+	min-width: 300px;
+	width:450px;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.9);
+}
+.cajaForm{
+	margin: 20px 0px;
+}
+.cajaForm a{
+	color: red;
+	text-decoration: none;
+}
+
+.inputForm{
+	width: 50%;
+	padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: transparent;
+}
+.inputForm:hover{
+background: #C4F0C9;
+outline: none;
+border-bottom: 4px solid red;
+}
+.writeyourName{
+	width: 50%;
+	height: 250px;
+	padding: 10px;
+}
+
+.boton{
+	width: 30%;
+	padding: 15px 0px;
+	background: red;
+	color: white;
+	border:none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.boton:hover{
+	background:#EE3323;
+}

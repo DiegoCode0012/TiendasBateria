@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.head{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: black;
+    padding: 20px;
+    	min-width: 300px;
+
+}
+
+.head  a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+}
+.head a:hover{
+	color: red;
+}
+
+
+.datos{
+	min-width: 300px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: #F72214;
+	padding-top:30px;
+}
+
+.hijo{
+	min-width: 250px;
+	max-width: 300px;
+	text-align: center;
+}
+.hijo .logoEmpresa{
+	width: 100%;
+}
+/*
+.logos{
+	justify-content: center;
+	background: white;
+}
+
+.logos div img {
+	width: 250px;
+	height: 250px;
+}
+
+.contactos{
+	justify-content: space-around;
+	background: white;
+	border-bottom: 1px solid black;
+}
+.contactos .itemCabecera{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;	
+}
+.contactos .itemCabecera div{
+	color: black;
+}
+.contactos .itemCabecera div img{
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+.contactos .itemCabecera div a{
+	color: black;
+}
+.contactos .itemCabecera div a:hover{
+	color: #65D326;
+}
+.contactos .itemCabecera div img:hover{
+
+filter: invert(79%) sepia(14%) saturate(2077%) hue-rotate(330deg) brightness(93%) contrast(103%);
+}
+.contactos div div{
+	color: #2E2828;
+}
+

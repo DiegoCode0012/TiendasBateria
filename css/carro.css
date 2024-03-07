@@ -1,0 +1,126 @@
+/*
+
+*{
+	margin: 0;
+	padding:0;
+}
+
+.FlexCabeceraCarro{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom:1px solid  black;
+}
+.item{
+	max-width: 170px;
+	margin: 10px;
+	}
+.item .logo{
+	width: 100%;
+}
+.seguir{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.FlexCarTabla{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.CarroCompra{
+	flex: 1;
+	margin: 10px;
+}
+
+
+.CardImporte{
+	min-width: 350px;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.CardImporte table {
+	width: 100%;
+}
+.CardImporte table td{
+	padding: 10px;
+}
+
+.CardImporte table tr{
+	text-align: center;
+}
+
+*/
+
+.FlexCabeceraCarro{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom:1px solid  black;
+}
+.item{
+	max-width: 170px;
+	margin: 10px;
+	}
+.item .logo{
+	width: 100%;
+}
+.seguir{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.PadreFlex{
+	display: flex;
+	flex-wrap: wrap;	
+	align-items: flex-start;
+	justify-content: center;
+	text-align: center;
+}
+.PadreFlex table{
+margin: 10px;
+}
+
+
+.tablaP{
+	flex: 2;
+	margin:10px;
+}
+.tablaP table{
+	width: 100%;
+}
+.tablaP table thead{
+	background: black;
+	color: white;
+}
+.tablaP table thead th{
+		padding: 10px 0px;
+
+}
+/*
+border-collapse: collapse;
+	min-width: 300px; */
+/*
+.tablaP thead{
+	background: black;
+	color: white;
+}
+.tablaP thead th{
+	padding: 10px 0px;
+}
+
+*/
+.TablaImporte{
+	flex: 1;
+	min-width: 300px;
+}
+.TablaImporte td{
+	padding: 10px;
+}
+

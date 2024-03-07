@@ -1,0 +1,27 @@
+
+.footer{
+	display: flex;
+	margin-top: 20px;
+	background: black;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: white;
+	padding: 10px;
+}
+.FooterHijo{
+	min-width: 250px;
+	max-width: 300px;
+	padding: 10px;
+	text-align: center;
+	font-style: italic;
+		font-size: 19px;
+
+}
+.lista a{
+	padding: 5px;
+	text-decoration: none;
+	color: white;
+}
+.redes a{
+	padding: 10px;
+}

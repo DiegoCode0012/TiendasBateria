@@ -1,0 +1,53 @@
+.categorias-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+.itemCategoria{
+	min-width: 300px;
+	max-width: 350px;
+	margin: 20px;
+	background: #fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	text-align: center;
+	padding: 10px;
+}
+.itemCategoria:hover{
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.7);
+
+}
+.itemCategoria div{
+	padding: 10px;
+ 	text-align: center;
+}
+.itemCategoria  img{
+	width: 100%;
+	height: 250px;
+}
+.itemCategoria h3{
+	color: red;
+	font-style: italic;
+}
+
+
+.marcas-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.marcas-flex div{
+	min-width: 250px;
+	max-width: 300px;
+}
+.marcas-flex div img{
+	width: 100%;
+}
+
+
+
+
+
+
